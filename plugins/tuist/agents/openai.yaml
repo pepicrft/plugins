@@ -1,6 +1,6 @@
 interface:
   display_name: "Tuist"
-  short_description: "The official Tuist MCP server for build, test, cache, bundle, and project insights"
+  short_description: "Speed up Xcode and Gradle builds and test runs with cache and insights"
   icon_small: "./assets/icon.png"
   icon_large: "./assets/logo.png"
-  default_prompt: "Use Tuist through MCP to inspect live build and test insights, compare runs, or investigate flaky tests."
+  default_prompt: "Use Tuist through MCP to speed up Xcode or Gradle builds and test runs, compare regressions, and investigate flaky tests."

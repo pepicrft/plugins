@@ -1,30 +1,33 @@
 {
   "name": "tuist",
   "version": "0.1.0",
-  "description": "Official Tuist MCP plugin for live project, build, test, cache, bundle, and generation insights.",
+  "description": "Official Tuist plugin to speed up Xcode and Gradle builds and test runs with cache and insights.",
   "author": {
     "name": "Tuist",
     "email": "contact@tuist.dev",
     "url": "https://tuist.dev"
   },
-  "homepage": "https://tuist.dev/en/docs/guides/features/agentic-coding/mcp",
+  "homepage": "https://tuist.dev",
   "repository": "https://github.com/tuist/tuist",
   "license": "MIT",
   "keywords": [
     "tuist",
-    "swift",
     "xcode",
-    "ios",
-    "generated-projects",
+    "gradle",
+    "swift",
+    "build-systems",
+    "cache",
     "mcp",
     "build-insights",
-    "test-insights"
+    "test-insights",
+    "test-selection",
+    "test-flakiness"
   ],
   "mcpServers": "./.mcp.json",
   "interface": {
     "displayName": "Tuist",
-    "shortDescription": "The official Tuist MCP server for build, test, cache, bundle, and project insights",
-    "longDescription": "Use Tuist through the hosted MCP server to inspect live project, build, test, cache, bundle, and generation data, and to run Tuist comparison and flaky-test investigation prompts against real project data.",
+    "shortDescription": "Speed up Xcode and Gradle builds and test runs with cache and insights",
+    "longDescription": "Use Tuist through the hosted MCP server to speed up Xcode and Gradle builds and test runs, inspect cache effectiveness, and analyze build, test, bundle, and generation insights to optimize your project setup.",
     "developerName": "Tuist",
     "category": "Coding",
     "capabilities": [
@@ -32,13 +35,13 @@
       "Read",
       "Write"
     ],
-    "websiteURL": "https://tuist.dev/",
+    "websiteURL": "https://tuist.dev",
     "privacyPolicyURL": "https://tuist.dev/privacy",
     "termsOfServiceURL": "https://tuist.dev/terms",
     "defaultPrompt": [
-      "Compare Tuist build, test, cache, or bundle runs and explain regressions",
-      "Investigate flaky tests in this Tuist project",
-      "Inspect this Tuist project and summarize recent runs"
+      "Show how to speed up Xcode or Gradle builds and test runs in this Tuist project",
+      "Compare Tuist build, test, cache, or bundle runs and explain what regressed",
+      "Analyze flaky tests or selective testing and recommend optimizations"
     ],
     "brandColor": "#6F2CFF",
     "composerIcon": "./assets/icon.png",
