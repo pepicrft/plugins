@@ -1,0 +1,6 @@
+interface:
+  display_name: "Tuist"
+  short_description: "Generated-project workflows plus the official Tuist MCP server"
+  icon_small: "./assets/icon.png"
+  icon_large: "./assets/logo.png"
+  default_prompt: "Use Tuist to inspect live build and test insights through MCP, migrate projects, or debug generated-project issues."

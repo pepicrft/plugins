@@ -1,0 +1,9 @@
+{
+  "mcpServers": {
+    "tuist": {
+      "type": "http",
+      "url": "https://tuist.dev/mcp",
+      "note": "Official Tuist MCP server. Uses OAuth on first connection and exposes read-only project, build, test, cache, bundle, and generation insights plus comparison prompts."
+    }
+  }
+}
