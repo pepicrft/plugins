@@ -1,7 +1,7 @@
 {
   "name": "tuist",
   "version": "0.1.0",
-  "description": "Official Tuist MCP and workflows for generated projects, migrations, and generated-project debugging.",
+  "description": "Official Tuist MCP plugin for live project, build, test, cache, bundle, and generation insights.",
   "author": {
     "name": "Tuist",
     "email": "contact@tuist.dev",
@@ -20,12 +20,11 @@
     "build-insights",
     "test-insights"
   ],
-  "skills": "./skills/",
   "mcpServers": "./.mcp.json",
   "interface": {
     "displayName": "Tuist",
-    "shortDescription": "Generated-project workflows plus the official Tuist MCP server",
-    "longDescription": "Use Tuist to migrate Xcode projects, work effectively in Tuist-generated workspaces, debug generation issues, and inspect live project, build, test, cache, bundle, and generation data through the hosted Tuist MCP server.",
+    "shortDescription": "The official Tuist MCP server for build, test, cache, bundle, and project insights",
+    "longDescription": "Use Tuist through the hosted MCP server to inspect live project, build, test, cache, bundle, and generation data, and to run Tuist comparison and flaky-test investigation prompts against real project data.",
     "developerName": "Tuist",
     "category": "Coding",
     "capabilities": [
@@ -38,8 +37,8 @@
     "termsOfServiceURL": "https://tuist.dev/terms",
     "defaultPrompt": [
       "Compare Tuist build, test, cache, or bundle runs and explain regressions",
-      "Migrate this Xcode project to Tuist generated workspaces",
-      "Debug a Tuist generate failure or generated-project issue"
+      "Investigate flaky tests in this Tuist project",
+      "Inspect this Tuist project and summarize recent runs"
     ],
     "brandColor": "#6F2CFF",
     "composerIcon": "./assets/icon.png",
